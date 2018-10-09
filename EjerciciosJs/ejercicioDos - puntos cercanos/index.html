@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Puntos más cercanos</title>
+  </head>
+
+  <body>
+    <h1>PUNTOS MÁS CERCANOS</h1>
+      Ingresa el primer punto:
+    <p>
+        Valor X: <input type="number" id="x1">
+        Valor Y: <input type="number" id="y1">
+        <input type="submit" value="Dibujar Punto" id="boton1">
+    </p>
+      Ingresa el segundo punto:
+    <p>
+        Valor X: <input type="number" id="x2">
+        Valor Y: <input type="number" id="y2">
+        <input type="button"  value="Dibujar Punto" id="boton2">
+    </p>
+      Ingresa el tercer punto:
+    <p>
+        Valor X: <input type="number" id="x3">
+        Valor Y: <input type="number" id="y3">
+        <input type="button"  value="Dibujar Punto" id="boton3">
+    </p>
+
+    <input type="button" value="Limpiar canvas" id="limpiarCanvas">
+    <input type="button" value="Puntos Cercanos" id="calcularPuntos">
+    
+    <p id="puntosCercanos"></p>
+    
+    <p>
+        <canvas id="areatrabajo" width="900" height="900" ></canvas>
+    </p>
+
+ <script src="scriptpunto.js"></script>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>

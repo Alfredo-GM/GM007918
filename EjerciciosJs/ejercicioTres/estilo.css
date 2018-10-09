@@ -1,0 +1,32 @@
+body{
+    background-color: rosybrown;
+    color: whitesmoke;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+h1{
+    color: aquamarine
+}
+
+
+footer {
+    background-color:rgb(46, 43, 59);
+    position: absolute;
+    bottom: 0;
+    padding-top: 2%;
+    width: 99%;
+    height: 30px;
+    color: white;
+    font-style: italic;
+  }
+
+  #multiplos{
+      color: rgb(46, 43, 59);
+      font-size: 14pt;
+      font-style: unset
+  }
+
+  input[type="number"]:not([size]) { 
+    width: 5em; 
+    }

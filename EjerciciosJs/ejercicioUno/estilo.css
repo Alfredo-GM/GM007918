@@ -1,0 +1,25 @@
+body{
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+h1{
+    color: yellowgreen
+}
+
+#ingresar{
+    color: yellowgreen
+}
+
+footer {
+    background-color:rgb(46, 43, 59);
+    position: absolute;
+    bottom: 0;
+    padding-top: 2%;
+    width: 99%;
+    height: 30px;
+    color: white;
+    font-style: italic;
+  }

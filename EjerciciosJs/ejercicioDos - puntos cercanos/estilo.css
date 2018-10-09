@@ -1,0 +1,31 @@
+body
+{
+text-align: center;
+background-color: #272932;
+color: #E7ECEF;
+font-family: Helvetica;
+}
+
+h1
+{
+  font-family: Helvetica;
+  text-align: center;
+  color: #F05D5E;
+}
+
+p
+{
+  text-align: center;
+  color: #D8A47F;
+}
+
+canvas
+{
+  background-color: #0F7173;
+}
+
+input[type="number"]:not([size]) { 
+  width: 3em; 
+  background-color: #E7ECEF
+  }
+
